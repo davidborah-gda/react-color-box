@@ -21,7 +21,7 @@ class App extends Component {
     });
   }
   render() {
-    const styles = {backgroundColor: 'red'};
+    const styles = {backgroundColor: this.state.color};
     return (
       <div>
         <button onClick={this.red.bind(this)}>Red</button>
