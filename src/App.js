@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ColorBox />
-        <ColorBox />
+        <ColorBox title="ColorBox" />
+        <ColorBox title="ColorBox2" />
       </div>
     );
   }

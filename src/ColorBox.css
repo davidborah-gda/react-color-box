@@ -1,0 +1,33 @@
+.ColorBox-title {
+    font-family: "Comic Sans MS", sans-serif;
+}
+.ColorBox-button {
+    appearance: none;
+    border: none;
+    background-color: chartreuse;
+    border-radius: 100%;
+}
+.ColorBox-input {
+    appearance: none;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+.ColorBox-display {
+    width: 30%;
+    height: 2rem;
+    font-size: 1.5rem;
+    background-color: white;
+}
+.ColorBox-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed purple;
+    background-color: burlywood;
+    align-items: center;
+}
+
+.ColorBox-container section {
+    display: flex;
+    justify-content: space-around;
+}
