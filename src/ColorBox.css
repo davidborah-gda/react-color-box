@@ -4,8 +4,10 @@
 .ColorBox-button {
     appearance: none;
     border: none;
+    width: 100px;
     background-color: orange;
     border-radius: 25%;
+    border: 2px solid black;
 }
 .ColorBox-input {
     appearance: none;
