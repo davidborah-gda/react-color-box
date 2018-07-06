@@ -4,8 +4,8 @@
 .ColorBox-button {
     appearance: none;
     border: none;
-    background-color: chartreuse;
-    border-radius: 100%;
+    background-color: orange;
+    border-radius: 25%;
 }
 .ColorBox-input {
     appearance: none;
