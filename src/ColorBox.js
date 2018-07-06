@@ -7,9 +7,9 @@ class ColorBox extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: "green",
-      first: "red",
-      second: "yellow"
+      color: "white",
+      first: "#FF0000",
+      second: "#0000FF"
     };
   }
 
