@@ -54,13 +54,13 @@ class ColorBox extends Component {
           <button onClick={this.First.bind(this)} className="ColorBox-button">First</button>
           <button onClick={this.Second.bind(this)} className="ColorBox-button">Second</button>
         </section>
-        <section><h2>First Color</h2>
+        <section><h3>Choose Your First Color</h3>
           <input
             placeholder="HEX Color Code"
             onChange={this.changeFirstColor.bind(this)}
             className="ColorBox-input"
             value= {this.state.first} />
-          <h2>Second Color</h2>
+          <h3>Choose Your Second Color</h3>
           <input
             placeholder="HEX Color Code"
             onChange={this.changeSecondColor.bind(this)}

@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <ColorBox title="ColorBox" />
-        <ColorBox title="ColorBox2" />
+        <ColorBox />
       </div>
     );
   }
